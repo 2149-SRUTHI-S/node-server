@@ -7,6 +7,7 @@ const server = http.createServer((req, res) => {
         res.end('Hey Sruthi Sivasankararaj !!')
     }
 
+// localhost:5000/about
     if(req.url === '/about') {
         res.end('Hey, Its About Page !!')
     }
